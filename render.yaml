@@ -1,9 +1,10 @@
 services:
   - type: web
     name: student-management-system
-    env: java
-    buildCommand: "chmod +x mvnw && ./mvnw clean install"
-    startCommand: "java -jar target/student-management-system-0.0.1-SNAPSHOT.jar"
+    runtime: docker
+    repo: https://github.com/kalpadas599/student-management-system
+    plan: free
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: JAVA_VERSION
         value: 25
