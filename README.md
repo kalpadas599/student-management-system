@@ -1,5 +1,5 @@
 # 📘 Student Management System  
-A full-stack **Spring Boot MVC** web application for managing student records with CRUD operations.  
+A full-stack *Spring Boot MVC* web application for managing student records with CRUD operations.  
 This project demonstrates concepts of **Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Thymeleaf, and MySQL**.
 
 ---
@@ -20,7 +20,7 @@ This project demonstrates concepts of **Spring Boot, Spring MVC, Spring Data JPA
 
 ## 🛠️ Technologies Used
 
-### **Backend**
+### Backend
 - Java 17  
 - Spring Boot  
 - Spring MVC  
@@ -28,15 +28,15 @@ This project demonstrates concepts of **Spring Boot, Spring MVC, Spring Data JPA
 - Hibernate  
 - MySQL  
 
-### **Frontend**
+### Frontend
 - Thymeleaf  
 - HTML5  
 - CSS3  
 
-### **Build Tool**
+### Build Tool
 - Maven
 
-### **IDE**
+### IDE
 - Spring Tool Suite (STS) / Eclipse
 
 ## 🗂️ Project Structure
@@ -68,7 +68,34 @@ student-management-system/
 
 ## ⚙️ Installation & Setup
 
-### **1. Clone the repository**
+### 1. Clone the repository
 ```bash
 git clone https://github.com/kalpadas599/student-management-system.git
 ```
+### 2. Open the project in STS/Eclipse/IntelliJ
+### 3. Create MySQL Database
+```
+CREATE DATABASE student_management;
+```
+### 4. Configure `application.properties`
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/student_management
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+```
+### 5. Run the Application
+```
+mvn spring-boot:run
+```
+Or run the main class:
+```
+StudentManagementSystemApplication.java
+```
+### 🌐 Access the Application
+http://localhost:8080/students
+
+
