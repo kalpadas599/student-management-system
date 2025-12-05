@@ -1,0 +1,6 @@
+com\smskd\sms\repository\StudentRepository.class
+com\smskd\sms\service\StudentService.class
+com\smskd\sms\StudentManagementSystemApplication.class
+com\smskd\sms\entity\Student.class
+com\smskd\sms\controller\StudentController.class
+com\smskd\sms\service\impl\StudentServiceImpl.class

@@ -1,10 +1,4 @@
-services:
-  - type: web
-    name: student-management-system
-    runtime: docker
-    repo: https://github.com/kalpadas599/student-management-system
-    plan: free
-    dockerfilePath: ./Dockerfile
-    envVars:
-      - key: JAVA_VERSION
-        value: 25
+runtime: docker
+envVars:
+  - key: JAVA_VERSION
+    value: 17
