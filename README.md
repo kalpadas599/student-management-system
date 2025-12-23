@@ -2,6 +2,7 @@
 A full-stack *Spring Boot MVC* web application for managing student records with CRUD operations.  
 This project demonstrates concepts of **Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Thymeleaf, and MySQL**.
 
+<img width="1892" height="779" alt="Image" src="https://github.com/user-attachments/assets/ce2da909-30d4-46af-ba6f-374ecd0ffdc2" />
 
 ## 🚀 Features
 
